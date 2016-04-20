@@ -1,0 +1,40 @@
+body {
+      margin: 0px;
+      padding: 0px;
+	  height:100%;
+	  overflow:hidden;
+}
+#myCanvas {
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	/* width: 150px; */
+	margin-top: 280px;
+	position: absolute;
+	margin-left: -125px;
+}
+#right1,#right2,#right3,#right4
+{
+	width:200px;
+	height:25%;
+	
+	background-image:url("tweet.jpg");
+	position:absolute;
+	right:-200px;
+	background-size:200px 100%;
+	-webkit-transition: right 2s; /* For Safari 3.1 to 6.0 */
+    transition: right 1s;
+}
+#right2
+{
+	top:25%;
+	background-image:url("face.jpg");
+}
+#right3{
+	top:50%;
+	background-image:url("skype.jpg");
+}
+#right4{
+	top:75%;
+	background-image:url("linkedin.jpg");
+}
